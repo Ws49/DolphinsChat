@@ -83,6 +83,6 @@ public class Controll {
     }
 
     public void waring(Exception e){
-        System.out.println(e.getMessage());
+       view.waring(e);
     }
 }

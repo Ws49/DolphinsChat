@@ -64,11 +64,11 @@ public class Client extends Model{
 
     @Override
     public void isWaringInput(Exception e) {
-        System.out.println("ERRO INPUT : " + e.getMessage());
+        controll.waring(e);
     }
     @Override
     public void isWaringOutput(Exception e) {
-        System.out.println("ERRO OUTPUT : " + e.getMessage());
+        controll.waring(e);
     }
 
     @Override
